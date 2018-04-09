@@ -1,0 +1,52 @@
+package day313revie;
+
+import java.util.HashMap;
+
+
+
+
+
+public class Room {
+    private String description;
+    HashMap<String, Room> nHashMap=new HashMap<String, Room>();
+    
+//    private Room northExit;
+//    private Room southExit;
+//    private Room eastExit;
+//    private Room westExit;
+
+    public Room(String description) 
+    {
+        this.description = description;
+    }
+    public String returndie(){
+    	
+    	
+        return nHashMap.keySet().toString();
+        
+    }
+public Room  setgotoroom(String direction){
+	Room ret=null;
+	
+		for (String k : nHashMap.keySet()) {
+			if(k.equals("north")){
+				ret=nHashMap.get(k);
+				
+			}
+		}
+	
+      return nHashMap.get(direction);
+}
+  
+public void setExit(String dire,Room fangzi) 
+    {
+	nHashMap.put(dire, fangzi);
+	
+    }
+
+    @Override
+    public String toString()
+    {
+        return description;
+    }
+}

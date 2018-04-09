@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from 项目“guoclass”&#x0D;&#x0A;－ 原始项目：“guoclass”&#x0D;&#x0A;－ 原始元素：“day224.test1.java”" description="删除元素" element1="/src&lt;day224{test1.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1487919265764" subPackages="false" version="1.0"/>
+</session>

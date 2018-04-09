@@ -1,0 +1,17 @@
+package day224;
+
+public class Clock {
+	display hour =new display(24);
+	display  minute =new display(60);
+	display second =new display(60);
+	
+
+	public Clock(int hour, int minute, int second){
+			
+		
+		 
+	}
+		
+	public void tick();
+		
+}

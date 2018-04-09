@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;FOX/src&apos;&#x0D;&#x0A;－ 原始项目：“FOX”&#x0D;&#x0A;－ 目标元素：“FOX/src”&#x0D;&#x0A;－ 原始元素：&#x0D;&#x0A;     field&#x0D;&#x0A;     animal&#x0D;&#x0A;     cell&#x0D;&#x0A;     foxnrabbit&#x0D;&#x0A;－ 更新对已重构元素的引用" description="移动文件夹" destination="/src" element1="foxnrabbit/src/field" element2="foxnrabbit/src/animal" element3="foxnrabbit/src/cell" element4="foxnrabbit/src/foxnrabbit" files="0" flags="589830" folders="4" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1490601726564" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,57 @@
+package day224;
+
+import java.util.Set;
+
+public class Clock {
+	public String toString(){
+		return  hour.get()+":"+minute.get()+":"+second.get();
+		
+	
+		
+		
+	}
+		  
+			
+		 
+	 
+	display hour =new display(24);
+	display  minute =new display(60);
+	display second =new display(60);
+	
+
+	public Clock(int hour, int minute, int second){
+		this.hour.setnow(hour);
+		this.minute.setnow(minute);
+		this.second.setnow(second);
+			
+	}
+		
+	public void tick(){
+		while(true){
+				 second.increse();
+				 System.out.println(hour.get()+":"+minute.get()+":"+second.get());
+				 if(second.get()==0){
+					 second.increse();
+					 minute.increse();
+					 System.out.println(hour.get()+":"+minute.get()+":"+second.get());
+					 if(minute.get()==0){
+						 second.increse();
+						 minute.increse();
+						 hour.increse();
+						 System.out.println(hour.get()+":"+minute.get()+":"+second.get());
+					 }
+						 
+				 }
+		}
+		
+	}
+	
+		public static void main(String[] args) {
+//			float f1=0.1f;
+//			float f2=123;
+			Clock clock=new Clock(1, 1, 1);
+			clock.tick();
+			
+			
+		}
+}

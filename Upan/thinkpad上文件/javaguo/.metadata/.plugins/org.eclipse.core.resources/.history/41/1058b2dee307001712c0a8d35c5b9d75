@@ -1,0 +1,52 @@
+package day313homework;
+
+public class Circle {
+	double radius;
+	public Circle(double radius){
+		this.radius=radius;
+		
+	}
+	public double getRadius(){
+		return radius;
+		
+	}
+	public void setRadius(double speed){
+		this.radius=speed;
+		
+	}
+	public double getArea(){
+		return Math.PI*Math.pow(radius, 2);
+		
+	}
+    public static Circle[] createCircleArray(){
+    	 Circle[] c= new Circle[3];
+    	c[0].setRadius(34.5);
+    	c[1].setRadius(56.0);
+    	c[2].setRadius(34.45);
+    	 return c;
+    }
+    public static double sum(Circle[] circles){
+    	double sum=0;
+    	for(int i=0;i<circles.length;i++){
+    		sum+=circles[i].getArea();
+    		
+    	}
+    	
+    	return sum;
+    	
+    }
+    public static void printCircleArray(Circle[] circles){
+    	 System.out.println("半径"+"			"+"面积");
+    	 for(int i=0;i<circles.length;i++){
+     		System.out.println(circles[i].radius+"			"+circles[i].getArea());
+     		System.out.println("总面积为"+sum(circles));
+     	}
+    }
+	public static void main(String[] args) {
+		Circle c[]=new Circle[3];
+		
+		c=createCircleArray();
+		printCircleArray(c);
+	}
+	
+}

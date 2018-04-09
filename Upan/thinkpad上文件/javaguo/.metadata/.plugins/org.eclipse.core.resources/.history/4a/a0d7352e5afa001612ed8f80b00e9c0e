@@ -1,0 +1,19 @@
+package day224;
+
+public class display {
+	private int limit=0;
+	private int now=0;
+	
+	public display(int limit){
+		this.limit =limit;
+		
+	}
+	public int  get(){
+		return now;
+		
+	}
+}
+		
+			
+			
+

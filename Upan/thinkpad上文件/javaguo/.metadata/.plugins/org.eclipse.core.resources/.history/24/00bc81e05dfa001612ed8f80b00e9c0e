@@ -1,0 +1,13 @@
+package day224;
+
+public class test1 {
+public static void main(String[] args) {
+	byte a =127;
+	byte b= 126;
+	int  c=a+b;
+	
+	String s;
+	s=(String)1234;
+	
+}
+}

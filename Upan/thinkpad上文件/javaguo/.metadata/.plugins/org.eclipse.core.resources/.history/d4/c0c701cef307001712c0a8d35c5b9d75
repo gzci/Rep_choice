@@ -1,0 +1,69 @@
+package day313homework;
+
+import java.util.Scanner;
+
+public class Tank {
+	private double speed=0;
+	private int bulletAmount=0;
+	
+	public Tank(int bulletAmount) {
+		super();
+		this.bulletAmount = bulletAmount;
+	}
+	public void speedUp(double up){
+		this.speed+=up;
+		
+	}
+	public void speedDown(double down){
+		this.speed-=down;
+		if(this.speed<=0){
+			this.speed=0;
+			
+		}
+		
+	}
+	public double getSpeed() {
+		return speed;
+	}
+	public void setSpeed(double speed) {
+		this.speed = speed;
+	}
+	public int getBulletAmount() {
+		return bulletAmount;
+	}
+	public void setBulletAmount(int bulletAmount) {
+		this.bulletAmount = bulletAmount;
+	}
+	public void  fire(){
+		if(bulletAmount!=0){
+			System.out.println("打出一发炮弹");
+		}
+		else{
+			System.out.println("没有炮弹了");
+		}
+	}
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		
+		Tank t1=new Tank(10);
+		Tank t2=new Tank(1);
+		t1.setSpeed(in.nextDouble());
+		t2.setSpeed(in.nextDouble());
+		t1.fire();
+		t2.fire();
+		System.out.println("tank1目前的速度是"+t1.getSpeed());
+		System.out.println("tank2目前的速度是"+t2.getSpeed());
+		System.out.println("tank1目前的子弹是"+t1.getBulletAmount());
+		System.out.println("tank2目前的子弹是"+t2.getBulletAmount());
+		t1.speedDown(in.nextDouble());
+		t2.speedDown(in.nextDouble());
+		t1.fire();
+		t2.fire();
+		System.out.println("tank1目前的速度是"+t1.getSpeed());
+		System.out.println("tank2目前的速度是"+t2.getSpeed());
+		System.out.println("tank1目前的子弹是"+t1.getBulletAmount());
+		System.out.println("tank2目前的子弹是"+t2.getBulletAmount());
+		
+	}
+	
+}

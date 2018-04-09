@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: make a node.3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP680.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/make a node.3.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\C语言相关文件\网易学习\make a node.3.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP680.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP681.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/make a node.3.pdb" /debug /machine:I386 /out:"Debug/make a node.3.exe" /pdbtype:sept 
+".\Debug\make a node.3.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP681.tmp"
+<h3>Output Window</h3>
+Compiling...
+make a node.3.c
+F:\C语言相关文件\网易学习\make a node.3.c(44) : error C2275: 'Node' : illegal use of this type as an expression
+        F:\C语言相关文件\网易学习\make a node.3.c(6) : see declaration of 'Node'
+F:\C语言相关文件\网易学习\make a node.3.c(44) : error C2065: 'p' : undeclared identifier
+F:\C语言相关文件\网易学习\make a node.3.c(45) : error C2143: syntax error : missing ';' before 'type'
+F:\C语言相关文件\网易学习\make a node.3.c(46) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct chain *'
+F:\C语言相关文件\网易学习\make a node.3.c(46) : error C2223: left of '->next' must point to struct/union
+F:\C语言相关文件\网易学习\make a node.3.c(48) : error C2223: left of '->value' must point to struct/union
+F:\C语言相关文件\网易学习\make a node.3.c(50) : error C2065: 'ret' : undeclared identifier
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+make a node.3.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

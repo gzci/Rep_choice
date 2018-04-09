@@ -1,0 +1,29 @@
+package day313homework;
+
+
+import java.util.Scanner;
+
+public class thefirst {
+   double x;
+   double y;
+   public thefirst(){
+	   
+   }
+public thefirst(double x, double y) {
+	super();
+	this.x = x;
+	this.y = y;
+}
+   public double getDistanceToBase(){
+	   
+	   return Math.sqrt(x*x + y*y);
+	   
+   }
+   public static void main(String[] args) {
+     Scanner in =new Scanner(System.in);
+	 thefirst p1=new thefirst(3, 4);
+	 thefirst p2=new thefirst(in.nextDouble(), in.nextDouble());
+	 System.out.println("p1距离原点的距离为"+p1.getDistanceToBase());
+	 System.out.println("p2距离原点的距离为"+p2.getDistanceToBase());
+}
+}

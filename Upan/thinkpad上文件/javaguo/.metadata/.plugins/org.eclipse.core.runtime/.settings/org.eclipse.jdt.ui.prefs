@@ -1,0 +1,41 @@
+MemberFilterActionGroup.org.eclipse.jdt.ui.JavaOutlinePage.8=true
+content_assist_autoactivation_triggers_java=.abcdefghijklmnopqrstuvwxyz
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="cn.guo.oop.Callback.MyFrame"><rhs name\="cn.guo.oop.Callback.Gameframe01"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.HashSet"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="day226.redo"><rhs name\="day226.redo"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.util.AbstractMap"><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.util.HashMap"><rhs name\="java.util.HashMap"/></lhs><lhs name\="day226.redo$student"><rhs name\="day226.redo$student"/></lhs><lhs name\="day226.datebase"><rhs name\="day226.datebase"/></lhs><lhs name\="day226.item"><rhs name\="day226.CD"/><rhs name\="day226.DVD"/></lhs><lhs name\="java.util.Set"><rhs name\="java.util.HashSet"/></lhs><lhs name\="java.util.AbstractSet"><rhs name\="java.util.HashSet"/></lhs><lhs name\="java.util.HashSet"><rhs name\="java.util.HashSet"/></lhs><lhs name\="cn.guo.oop.AbstrctClass.cat"><rhs name\="cn.guo.oop.AbstrctClass.cat"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="day312.Room"><rhs name\="day312.Room"/></lhs><lhs name\="day315.Fan"><rhs name\="day315.Fan"/></lhs><lhs name\="day315.Course"><rhs name\="day315.Course"/></lhs><lhs name\="day315.Student"><rhs name\="day315.Student"/></lhs><lhs name\="day315.Vehicle"><rhs name\="day315.Vehicle"/></lhs><lhs name\="javax.accessibility.Accessible"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="javax.swing.AbstractButton"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="java.awt.ItemSelectable"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="javax.swing.SwingConstants"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="javax.swing.JComponent"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="javax.swing.TransferHandler$HasGetTransferHandler"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="java.awt.Container"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="java.awt.Component"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="java.awt.image.ImageObserver"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="java.awt.MenuContainer"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="javax.swing.JButton"><rhs name\="javax.swing.JButton"/></lhs><lhs name\="day329exam3.GeometricObject"><rhs name\="day329exam3.GeometricObject"/><rhs name\="day329exam3.Circle"/><rhs name\="day329exam3.Triangle"/></lhs><lhs name\="left.Bill"><rhs name\="left.WaterBill"/></lhs><lhs name\="left.WaterBill"><rhs name\="left.WaterBill"/></lhs><lhs name\="animal.Animal"><rhs name\="animal.Rabbit"/><rhs name\="animal.Fox"/></lhs><lhs name\="day331onclass.testfanxinglei"><rhs name\="day331onclass.testfanxinglei"/></lhs><lhs name\="day331onclass.point"><rhs name\="day331onclass.point"/></lhs><lhs name\="day401onclass.test1"><rhs name\="day401onclass.test1"/></lhs><lhs name\="castle.Handler"><rhs name\="castle.HandlerHelp"/></lhs><lhs name\="gui.Investment"><rhs name\="gui.Investment"/></lhs><lhs name\="javafx.event.EventTarget"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.css.Styleable"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.scene.Node"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.scene.control.TextInputControl"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.scene.control.Control"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.scene.control.Skinnable"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.scene.layout.Region"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.scene.Parent"><rhs name\="javafx.scene.control.TextField"/></lhs><lhs name\="javafx.scene.control.TextField"><rhs name\="javafx.scene.control.TextField"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+hoverModifierMasks=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;0;org.eclipse.jdt.ui.ProblemHover;0;org.eclipse.jdt.ui.NLSStringHover;327680;org.eclipse.jdt.ui.JavadocHover;393216;org.eclipse.jdt.ui.AnnotationHover;0;org.eclipse.jdt.ui.JavaSourceHover;131072;
+hoverModifiers=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;\!0;org.eclipse.jdt.ui.ProblemHover;\!0;org.eclipse.jdt.ui.NLSStringHover;Ctrl+Alt;org.eclipse.jdt.ui.JavadocHover;Ctrl+Shift;org.eclipse.jdt.ui.AnnotationHover;\!0;org.eclipse.jdt.ui.JavaSourceHover;Shift;
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.ignorelowercasenames=true
+org.eclipse.jdt.ui.importorder=java;javax;org;com;
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.ondemandthreshold=99
+org.eclipse.jdt.ui.overrideannotation=true
+org.eclipse.jdt.ui.staticondemandthreshold=99
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+proposalOrderMigrated=true
+sourceHoverBackgroundColor=255,255,225
+spelling_ignore_ampersand_in_properties=true
+spelling_ignore_digits=true
+spelling_ignore_java_strings=true
+spelling_ignore_mixed=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
+spelling_ignore_single_letters=true
+spelling_ignore_upper=true
+spelling_ignore_urls=true
+spelling_locale_initialized=true
+spelling_user_dictionary_encoding=
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,67 @@
+package day309;
+
+
+
+
+
+public class Room {
+    private String description;
+    private Room northExit;
+    private Room southExit;
+    private Room eastExit;
+    private Room westExit;
+
+    public Room(String description) 
+    {
+        this.description = description;
+    }
+    public StringBuffer returndie(Room currentRoom){
+    	StringBuffer sBuffer=new StringBuffer();
+    	
+    	
+    	 if(currentRoom.northExit != null)
+             sBuffer.append("north ");
+         if(currentRoom.eastExit != null)
+             sBuffer.append("east ");
+         if(currentRoom.southExit != null)
+            sBuffer.append("south ");
+         if(currentRoom.westExit != null)
+             sBuffer.append("west ");
+         return sBuffer;
+         
+    }
+public Room  setgotoroom(String direction,Room now){
+	  Room nextRoom = null;
+	  if(direction.equals("north")) {
+          nextRoom = now.northExit;
+      }
+      if(direction.equals("east")) {
+          nextRoom = now.eastExit;
+      }
+      if(direction.equals("south")) {
+          nextRoom = now.southExit;
+      }
+      if(direction.equals("west")) {
+          nextRoom = now.westExit;
+      }
+      return nextRoom;
+      
+}
+    public void setExits(Room north, Room east, Room south, Room west) 
+    {
+        if(north != null)
+            northExit = north;
+        if(east != null)
+            eastExit = east;
+        if(south != null)
+            southExit = south;
+        if(west != null)
+            westExit = west;
+    }
+
+    @Override
+    public String toString()
+    {
+        return description;
+    }
+}
